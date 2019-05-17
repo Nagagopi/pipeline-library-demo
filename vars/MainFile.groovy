@@ -18,7 +18,7 @@ pipeline {
 
 				echo "22222222222222222 ${branchName}"
 				echo "33333333333333333 "
-				scmFile("branchName", url)
+				scmFile("master", url)
 			}
 		}
 	    stage('Read YAML file') {
